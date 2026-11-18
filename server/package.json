@@ -1,0 +1,25 @@
+{
+  "name": "ai-streaming-server",
+  "version": "1.0.0",
+  "description": "Week 14 Day 1 - AI Streaming Backend",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "anthropic": "node stream-anthropic.js",
+    "openai": "node stream-openai.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "openai": "^7.59.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
